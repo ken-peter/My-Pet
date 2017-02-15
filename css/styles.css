@@ -13,3 +13,11 @@ p.amazing{
 .activity{
   color: purple;
 }
+.grey-background {
+  background-color: grey;
+}
+
+img{
+  height: 100px;
+  weight: 100px;
+}
