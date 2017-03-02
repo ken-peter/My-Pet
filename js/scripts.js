@@ -1,4 +1,12 @@
 $(document).ready(function() {
- $("button#grey").click(function){
-   $("body").clickable("grey-background");
+ $("#change-color").click(function){
+   if ("body").hasClass("white"){
+   $("body").removeClass("white");
+   $("body").addClass("grey");
+ }else{
+   ("body").removeClass("grey");
+   ("body").addClass("white")
+ }
+
+});
 });
